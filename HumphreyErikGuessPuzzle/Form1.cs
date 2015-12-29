@@ -81,9 +81,7 @@ namespace HumphreyErikGuessPuzzle
             AddFontMemResourceEx(fontPtr, (uint)Properties.Resources.fontGuessPuzzle.Length, IntPtr.Zero, ref dummy);
             System.Runtime.InteropServices.Marshal.FreeCoTaskMem(fontPtr);
 
-            fontDank = new Font(fonts.Families[0], 16.0F);
-
-            InitializeComponent();
+            fontDank = new Font(fonts.Families[0], 24F);
             tmrPleaseWait.Start(); // Start the timer
         }
 

@@ -342,7 +342,7 @@
             this.tabsSections.Controls.Add(this.tabAskForReplay);
             this.tabsSections.Font = new System.Drawing.Font("RuneScape NPC Chat", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabsSections.ItemSize = new System.Drawing.Size(0, 1);
-            this.tabsSections.Location = new System.Drawing.Point(9, 9);
+            this.tabsSections.Location = new System.Drawing.Point(-5, -6);
             this.tabsSections.Margin = new System.Windows.Forms.Padding(0);
             this.tabsSections.Name = "tabsSections";
             this.tabsSections.Padding = new System.Drawing.Point(0, 0);
@@ -469,7 +469,7 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(558, 189);
+            this.ClientSize = new System.Drawing.Size(522, 160);
             this.Controls.Add(this.tabsSections);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
